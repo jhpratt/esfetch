@@ -1,0 +1,21 @@
+{
+  "name": "esfetch",
+  "version": "0.1.0",
+  "description": "A small wrapper around fetch, improving usability",
+  "main": "index.js",
+  "repository": "https://github.com/jhpratt/esfetch",
+  "author": "Jacob Pratt <the.z.cuber@gmail.com>",
+  "license": "MIT",
+  "types": "./index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "devDependencies": {
+    "typescript": "^3.2.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  }
+}

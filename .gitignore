@@ -1,0 +1,6 @@
+node_modules/
+index.js
+index.min.js
+index.d.ts
+*.gz
+*.br
