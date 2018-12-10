@@ -1,6 +1,6 @@
 {
   "name": "esfetch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A small wrapper around fetch, improving usability",
   "main": "index.js",
   "repository": "https://github.com/jhpratt/esfetch",
@@ -9,6 +9,7 @@
   "types": "./index.d.ts",
   "files": [
     "index.js",
+    "index.min.js",
     "index.d.ts"
   ],
   "devDependencies": {
