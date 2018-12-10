@@ -1,6 +1,6 @@
 {
   "name": "esfetch",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A small wrapper around fetch, improving usability",
   "main": "index.js",
   "repository": "https://github.com/jhpratt/esfetch",
@@ -13,10 +13,11 @@
     "index.d.ts"
   ],
   "devDependencies": {
+    "terser": "^3.11.0",
     "typescript": "^3.2.1"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && terser -m --module --toplevel index.js -o index.min.js",
     "prepublishOnly": "npm run build"
   }
 }
