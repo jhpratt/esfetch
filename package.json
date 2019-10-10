@@ -10,7 +10,8 @@
   "files": [
     "index.js",
     "index.min.js",
-    "index.d.ts"
+    "index.d.ts",
+    "index.ts"
   ],
   "devDependencies": {
     "terser": "^3.11.0",
